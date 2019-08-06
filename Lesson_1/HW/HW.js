@@ -1,6 +1,6 @@
 $(document).ready(function() {
   $(".fadeButton").click(() => {
-    $(".table").fadeToggle();
+    $(".blue").fadeToggle();
   });
 
   $(".copyButton").click(() => {
@@ -23,8 +23,8 @@ $(document).ready(function() {
   $(".fillNumbers").click(() => {
     let orangeDiv = $(".orange");
     $.each(orangeDiv, i => {
-      const val = i + 1;
-      orangeDiv.slice(i).html(val);
+      const num = i + 1;
+      orangeDiv.slice(i).html(num);
     });
   });
 
