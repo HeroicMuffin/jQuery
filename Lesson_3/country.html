@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <style>
+    .container {
+      display: flex;
+      justify-content: center;
+      margin-left: 500px;
+    }
+    .capitalContainer {
+      text-align: center;
+    }
+  </style>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HW</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./hw.css" />
+  </head>
+
+  <body>
+    <div class="container m-5">
+      <div class="input-group input-group-lg">
+        <input
+          type="text"
+          class="form-control col-3"
+          aria-label="Large"
+          aria-describedby="inputGroup-sizing-sm"
+          id="search-country"
+        />
+        <button class="findAllButton" id="find-all">Find All</button>
+        <button class="fineOneButton" id="find-one">Find One</button>
+        <button class="capitalButton" id="capital-city">
+          Capital City
+        </button>
+      </div>
+    </div>
+
+    <div>
+      <div id="slider">
+        <a href="#" class="control_next">Next</a>
+        <a href="#" class="control_prev">Previous</a>
+        <ul>
+          <li>test slide1</li>
+          <li>test slide2</li>
+        </ul>
+      </div>
+    </div>
+    <div class="capitalContainer"></div>
+
+    <select class="countryDD"></select>
+    <select class="currencyDD"></select>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.js"
+      integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./countryData.js"></script>
+    <script src="./functions.js"></script>
+    <script src="./slider.js"></script>
+    <script src="./country.js"></script>
+  </body>
+</html>
