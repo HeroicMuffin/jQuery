@@ -1,0 +1,20 @@
+
+.container {
+    width: 50%;
+  }
+.cardContainer{
+    width: 90%;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: row;
+}
+#cCard{
+    border: 3px solid black;
+    width: 280px;
+    height: 300px;
+    margin: 50px;
+}
+.cardIMG{
+    width: 275px;
+    height: 150px;
+}
